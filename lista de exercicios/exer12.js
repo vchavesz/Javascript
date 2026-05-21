@@ -1,4 +1,4 @@
-// faça uma contagem de 300 a 500
+// faça uma contagem de 350 a 500
 
 
 
