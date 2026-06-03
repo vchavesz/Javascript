@@ -46,6 +46,6 @@ funcionarioB.Aumentarsalario(500)
 funcionarioB.exibieInfos()
 funcionarioB.trabalhaNoRh()
 
-funcionarioC.Aumentarsalario(500)
+funcionarioC.Aumentarsalario(500)   
 funcionarioC.exibieInfos()
 funcionarioC.trabalhaNoRh()
