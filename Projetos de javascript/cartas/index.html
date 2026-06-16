@@ -1,40 +1,61 @@
+
 <!DOCTYPE html>
-<html lang="PT-Br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cartas</title>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-    <h1>Vamos fazer uma carta da copa do mundo</h1>
-    <p>Preencha as coisas abaixo para gerar sua carta</p>
-    
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Super Trunfo</title>
+    <!-- Incluir uma folha de estilos externa -->
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <h1>Super Trunfo - Copa 2026</h1>
+    <p>Preencha os campos abaixo para gerar a sua carta</p>
+
     <p>
-    <label>Nome da carta </label>
-    <input id="nome-da-carta" type="text" valeu="" placeholder="Nome da carta ">
-    </p>
-    
-    <p>
-    <label>Imagem da Carta</label>
-    <input id="imagem-da-carta" type="url" value="" placeholder="Insira a url de uma imagem">
+      <label>Nome da carta</label>
+      <input id="nome-da-carta" type="text" value="" placeholder="Nome da carta" />
     </p>
 
     <p>
-    <label>Quantas copa tem sua seleção</label>
-    <input id="quantas-copas" type="number" valeu="" placeholder="Insira quantas copas sua seleção tem ">
+      <label>Imagem da carta</label>
+      <input id="imagem-da-carta" type="url" value="" placeholder="Insira a URL de uma imagem" />
     </p>
 
     <p>
-    <label>Qual melhor jogador da sua seleção</label>
-    <input id="melhor-jogador" type="text" valeu="" placeholder="Insira o melhor jogador da sua seleção ">
+      <label>Copas</label>
+      <input id="atributo-copas" type="number" value="" />
     </p>
 
-    <input type="button" value="Criar Carta" onclick="criarCarta()">
+    <p>
+      <label>Ranking FIFA</label>
+      <input id="atributo-ranking" type="number" value="" />
+    </p>
 
+    <p>
+      <label>Vitórias</label>
+      <input id="atributo-vitorias" type="number" value="" />
+    </p>
 
+    <p>
+      <input type="button" value="Criar carta" onclick="criarCarta()" />
+    </p>
 
+    <section id="cartas">
 
-    <script src="cartas.js"></script>
-</body>
+      <div>
+        <h3>Brasil</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brazilian_Football_Confederation_logo.svg/1920px-Brazilian_Football_Confederation_logo.svg.png">
+        <ul>
+          <li>Copas: 5</li>
+          <li>Ranking Fifa: 6</li>
+          <li>Vitórias em Copas: 76</li>
+        </ul>
+      </div>
+
+      
+
+    </section>
+
+    <script src="super-trunfo.js"></script>
+  </body>
 </html>
