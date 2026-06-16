@@ -44,3 +44,7 @@ function limparInputs(){
   inputVitorias.value = '';
 
 }
+
+function validarNumero(){
+  alert("Campo mudou!")
+}
