@@ -27,6 +27,7 @@
   carta.innerHTML += '<li>Ranking Fifa: ' + inputRanking.value + '</li>';
   carta.innerHTML += '<li>Vitórias em Copas: ' + inputVitorias.value + '</li>';
   carta.innerHTML += '</ul>';
+  carta.innerHTML +=  ' <input type="button" value="Remover carta" onclick="removerCarta()" />  " />'
 
   // 3. Adicionar carta no documento HTML
   let section = document.querySelector("#cartas");
@@ -34,6 +35,15 @@
 
   limparInputs();
   }
+}
+
+
+function removerCarta(){
+  console.log(event.target)
+  console.log(event.target.parentNode)
+  event.target.parentNode.remove()
+  
+  
 }
 
 function limparInputs(){
@@ -45,6 +55,3 @@ function limparInputs(){
 
 }
 
-function validarNumero(){
-  alert("Campo mudou!")
-}
