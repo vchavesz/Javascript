@@ -3,10 +3,10 @@
 
 ---
 
-## O que tem aqui
+## Sobre o repositório
 
 Exercícios, anotações e projetos práticos do curso de JavaScript do SENAI Cotia.  
-A progressão vai do HTML/CSS básico até orientação a objetos e manipulação do DOM.
+A progressão vai do HTML/CSS básico até orientação a objetos, manipulação de arrays e consumo de APIs.
 
 ---
 
@@ -14,22 +14,24 @@ A progressão vai do HTML/CSS básico até orientação a objetos e manipulaçã
 
 ```
 📁 Introduções/
-   ├── Intro HTML/        → estrutura, listas, links, formulários
-   ├── Intro CSS/         → box model, margin, padding, flexbox
-   └── Intro JavaScript/  → variáveis, prompt, alert, operações
+   ├── Intro HTML/          → estrutura semântica, listas, links, formulários, imagens
+   ├── Intro CSS/           → box model, margin, padding, flexbox, estilos externos
+   └── Intro JavaScript/    → variáveis, prompt, alert, parseInt, operações básicas
 
 📁 Exercicios de logica/
-   ├── exer01 → exer32    → 32 exercícios em progressão
-   └── index.html         → interface para rodar cada .js no navegador
+   ├── exer01 → exer34      → 34 exercícios em progressão (variáveis → arrays)
+   └── index.html           → interface para rodar cada .js direto no navegador
 
 📁 Projetos de javascript/
-   ├── Botões/            → eventos onclick, funções
-   ├── contador/          → manipulação de DOM
-   ├── Tarefas/           → criação dinâmica de elementos
-   ├── cartas/            → inputs + geração de cards
-   ├── gato e cachorro/   → troca de imagem e estilo via JS
-   ├── Função/            → funções, cupons e desconto
-   └── Portifolio/        → página HTML/CSS completa
+   ├── Botões/              → eventos onclick, funções com parâmetros
+   ├── contador/            → manipulação de DOM com getElementById
+   ├── Tarefas/             → criação dinâmica de elementos com createElement
+   ├── Cartas/              → inputs, geração de cards e remoção via DOM
+   ├── gato e cachorro/     → troca de imagem e estilo via JS
+   ├── Mochila/             → arrays, for...of e entries()
+   ├── Função/              → funções, retorno, cupons de desconto, encadeamento
+   ├── Api/                 → fetch, .then(), consumo da Rick and Morty API
+   └── Michael Jackson/     → página HTML/CSS completa com tabela e layout flexbox
 ```
 
 ---
@@ -38,20 +40,37 @@ A progressão vai do HTML/CSS básico até orientação a objetos e manipulaçã
 
 | Tema | O que foi praticado |
 |------|---------------------|
-| HTML | Estrutura semântica, listas, links, formulários, imagens |
+| HTML | Estrutura semântica, títulos, listas, links, formulários, imagens |
 | CSS | Box model, flexbox, responsividade, estilos inline e externos |
-| Lógica | Variáveis, operadores, `if/else`, `switch`, `while`, `do while`, `for` |
-| Funções | Parâmetros, retorno, funções anônimas, arrow functions |
+| Lógica | Variáveis, operadores, `if/else`, `switch`, `while`, `do while`, `for`, `for...of` |
+| Funções | Parâmetros, retorno, funções anônimas, encadeamento de funções |
 | Objetos | Propriedades, métodos, `this`, funções construtoras com `new` |
-| DOM | `getElementById`, `querySelector`, `createElement`, `appendChild`, `setAttribute` |
+| Arrays | Declaração, `push`, `unshift`, `slice`, `join`, iteração com `for...of` e `entries()` |
+| DOM | `getElementById`, `querySelector`, `createElement`, `appendChild`, `setAttribute`, `innerHTML` |
+| APIs | `fetch`, `.then()`, `.json()`, renderização de dados externos na página |
+
+---
+
+## Progressão dos exercícios
+
+| Intervalo | Foco |
+|-----------|------|
+| exer01 – exer10 | Variáveis, operadores, `if/else`, `switch` |
+| exer11 – exer21 | Loops `while` e `do while`, lógica acumulada |
+| exer22 – exer25 | Loop `for`, funções com retorno |
+| exer26 – exer32 | Objetos, propriedades, métodos, funções construtoras |
+| exer33 – exer34 | Arrays, manipulação e iteração |
 
 ---
 
 ## Como rodar os exercícios
 
-Abra `Exercicios de logica/index.html` no navegador.  
-A interface lista todos os arquivos `.js` — clique em qualquer um e pressione **executar** (ou `Enter`).  
-Alguns exercícios usam `prompt`/`alert`, outros jogam resultado no **Console** (`F12`).
+1. Abra `Exercicios de logica/index.html` no navegador
+2. A interface lista todos os arquivos `.js` na barra lateral
+3. Clique em qualquer um e pressione **executar** (ou `Enter`)
+
+> Alguns exercícios usam `prompt` e `alert` — responda as caixas de diálogo.  
+> Outros exibem resultado no **Console** do navegador (`F12 → Console`).
 
 ---
 
@@ -66,4 +85,4 @@ Alguns exercícios usam `prompt`/`alert`, outros jogam resultado no **Console** 
 ## Autor
 
 **Vinicius Chaves** · [@vchavesz](https://github.com/vchavesz)  
-Estudante de Front-end & JavaScript — SENAI Cotia  
+Estudante de Front-end & JavaScript — SENAI Cotia
