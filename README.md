@@ -1,4 +1,4 @@
-# curso-java-scripit
+# curso-java-script
 ### Repositório de estudos — Desenvolvimento JavaScript · SENAI Cotia
 
 ---
